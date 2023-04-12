@@ -29,6 +29,7 @@ public class Treetraversal{
         tree.root=new Node("mohar");
         tree.root.left=new Node("chintu");
         tree.root.right=new Node("pintu");
+        System.out.println("Hello this ");
         tree.printInOrder(tree.root);
 
         
